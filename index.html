@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+   <link href="styles.css" rel="stylesheet">
+   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+   <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+   <!-- file:///Users/sauvikdolui/Downloads/testFolder/~bootstrap/dist/css/bootstrap.css -->
+
+</head>
+<body>
+  <script type="text/javascript">
+    function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+    }
+  }
+  </script>
+  <!-- <app-root></app-root> -->
+
+  <!-- ======= Header ======= -->
+
+ <header id="header" class="fixed-top">
+  <div class="container d-flex align-items-center position-relative">
+
+    <!-- Uncomment below if you prefer to use an image logo -->
+    <div style="margin-right: 165px;">
+    <a href="index.html">
+
+      <img src="assets/img/IndCompli.png" alt="" class="img-fluid" style="height: 50px;width: 150px; " >
+      <!-- <span style="color: #1d84ad; font-size: 20px; position:absolute; padding-left:7px">IndCompli</span> -->
+    </a>
+  </div>
+  <div style="margin-left: 235px;">
+    <nav class="nav-menu d-none d-lg-block" >
+      <ul>
+        <li class="active"><a href="" >
+          <i class="fa fa-home"></i>
+        </a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#howitworks">How it works</a></li>
+        <li><a href="#benefit">Benefits</a></li>
+
+        <li>
+          <a class="icon icon-user2" >
+           <i class="fa fa-user"></i>
+            <!-- <span class="glyphicon glyphicon-user"></span> -->
+          </a>
+        </li>
+
+      </ul>
+    </nav>
+
+  </div>
+
+  </div>
+</header> <!--End Header-->
+<!-- =========================== End Header ============================== -->
+
+<section>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom: 20px;margin-top: 50px;">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img class="d-block w-100 tales" src="assets/img/slide1.png" style="width:100%; height: 450px" alt="Los Angeles">
+        </div>
+
+        <div class="item">
+          <img class="d-block w-100 tales" src="assets/img/slide2.png" style="width:100%; height: 450px"  alt="Chicago">
+        </div>
+
+        <div class="item">
+          <img class="d-block w-100 tales" src="assets/img/slide3.png" style="width:100%; height: 450px" alt="New York">
+          
+        </div>
+
+
+        <div class="item">
+          <img class="d-block w-100 tales" src="assets/img/slide4.png" style="width:100%; height: 450px" alt="New York">
+          
+        </div>
+
+      </div>
+
+      <!-- Left and right controls -->
+
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+</section>
+
+<section>
+      <div class="fix-center">
+        <div class="left-comply">
+          <h2>Why
+            <span class="gcolor">
+              IndCompli</span>?
+
+          </h2>
+        </div>
+        <div class="right-comply">
+          <p>When running a business, whether it is an SMB, or a large enterprise, one of the basic requirements is 100% compliance with the law. In complex jurisdictions, this can be a very daunting task! In India alone, there are over <span class="gcolor">76,000 </span> possible annual statutory compliance laws in 2019.</p>
+
+          <p>You have to:</p>
+          <ul>
+          <li>determine which among this myriad of laws apply to you</li>
+          <li>keep track of all the legal updates and notifications</li>
+          <li>make sure that you conform to the law in letter and spirit</li>
+          <li>and of course, always be ready for compliance audits.</li>
+          </ul>
+          <p>All of this just distracts you from your core focus – your business.</p>
+
+
+
+          <p>Being non-compliant also does the same thing. If the associated penalties for non-compliance are not enough of a deterrent, the consequences to your senior management, and&nbsp; the wasted hours filing a large amount of paperwork to remedy these non-compliances, should be!</p>
+
+        </div>
+      </div>
+</section>
+
+
+    <!-------------------------------------------------------------------------------------------------------------------------
+      About us
+     -------------------------------------------------------------------------------------------------------------------------->
+
+<section class="product-views" id="about">
+      <div class="fix-center">
+        <div class="prct-title">
+          <h2>About
+            <span class="gcolor">
+              IndCompli        </span>
+            <!-- <sup>
+              ®        </sup> -->
+          </h2>
+          <p>
+            your next-gen Compliance Management Software      </p>
+        </div>
+
+        <div class="row about-box">
+          <div class="col-sm-4">
+            <div class="box aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+              <!-- <i-bs name="folder" class="icon"></i-bs> -->
+              <i class="fa fa-folder-open-o icon"></i>
+              <h4>Compliance Manual</h4>
+              <p>
+                We have prepared a comprehensive manual of compliance under various laws and regulationsas applicable to indian bussines. Same is customized for each company based on its requirements
+               
+
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-4 mt-5 mt-md-0">
+            <div class="box">
+              <!-- <i-bs name="list-check" class="icon"></i-bs> -->
+              <i class="fa fa-list icon"></i>
+
+              <h4>Compliance Tracking</h4>
+              <p>
+                We create compliance calender and generate remainders for timely action of the compliance activities. Our tool targets to facilitates smooth work flow. For each compliance / events. Escalation levelsare also listed <span id="dots">... </span><span id="more"> along with periodic customized reports sent to various levels. </span><a onclick="myFunction()" id="myBtn" style="color: #337ab7">   Read more</a> 
+              </p>
+              
+            </div>
+          </div>
+          <div class="col-sm-4 mt-5 mt-md-0">
+            <div class="box">
+              <!-- <i-bs name="journal" class="icon"></i-bs> -->
+              <i class="fa fa-book icon" ></i>
+
+              <h4>Legislative Tracking</h4>
+              <p>
+                we track legislations frpm the "Bill" stage, propesed amendments, tax and regultory updates to ensure our clients and compliant at all times. This helps companies prepare in advance for making ay operational changes.
+               
+
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <br>
+        <br>
+        <div class="sets-apart">
+
+          <div class="dvcontent-parts">
+              <ul>
+                <li>
+                  <p>"IndCompli" is an enhanced web based compliance management tool on a secured cloud environment</p>
+                </li>
+                <li>
+                  <p>Packaged solution for Corporate, Tax, Labour, Environment Law etc. related compliance</p>
+                </li>
+                <li>
+                  <p>Compliance management across industries(covers both Manufactuing and Service sector)</p>
+                </li>
+                <li>
+                  <p>'One stop shop' for all compliances - Compliance manual & calender, forms, customized reports, Repositiory etc</p>
+                </li>
+                <li>
+                  <p>
+                    Manage, supervise and control statutory, regulatory compliance activities
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Ensuring Quality control through manual verification of documents by domain experts
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Assist the management to have a centralized control, Real-time, quick and easy access to complience status
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Facilitates in creating a repository of documents for all complied activities. Also creates a repository of all licenses aand agreements
+                  </p>
+                </li>
+
+              </ul>
+          </div>
+        </div>
+
+      </div>
+
+</section>
+
+<!--
+  How it works
+ -->
+
+<section class="product-look" id="pricing">
+  <div class="fix-center">
+    <h3>Just look at the numbers!</h3>
+    <ul class="number-plist">
+    <li>
+    <h4>₹ 33,65,588</h4>
+    <p>Average penalty paid in 2019, per entity, for non-compliance.</p>
+    </li>
+    <li>
+    <h4>38,750</h4>
+    <p>Average filings / proofs to be submitted by entities per year.</p>
+    </li>
+    <li>
+    <h4>45,786</h4>
+    <p>Directors who got delisted in 2019, due to non-compliance.</p>
+    </li>
+    </ul>
+    <h3>Sounds overwhelming, doesn’t it? <br>Well, it doesn’t need to be.</h3>
+  </div>
+</section>
+
+<section id="howitworks" class="howItworks" >
+
+  <div class="container-fluid fix-center" >
+    <h1 style="text-align: center;">
+      IndCompli - How it works?
+    </h1>
+
+    <div class="row subject" style="padding-top: 20px;">
+      <div class="col-sm-4">
+        <p >
+          Our team of experts meets the management of the company to understand the business and determine the applicability of various laws
+        </p>
+        <i class="fa fa-angle-right" style="font-size: 90px;margin-left: 300px;"></i>
+              <!-- <img src="assets/img/arrow.jpg" style="height: 80px;width: 80px;margin-left: 245px;"> -->
+      </div>
+      <div class="col-sm-4">
+        <p style ="margin-top: 90px;">
+          Our team of experts meets the management of the company to understand the business and determine the applicability of various laws
+        </p>
+        <i class="fa fa-angle-right" style="font-size: 90px;margin-left: 300px;"></i>
+        <!-- <img src="assets/img/arrow.jpg" style="height: 80px;width: 80px;margin-left: 245px;"> -->
+
+      </div>
+      <div class="col-sm-4">
+        <p style ="margin-top: 175px;">
+          Our team of experts meets the management of the company to understand the business and determine the applicability of various laws
+        </p>
+
+      </div>
+    </div>
+
+    <div class="subject">
+      <h3>Preparation of Compliance Calendar </h3>
+      <p>
+
+        After identifying the law areas, our team prepares a compliance calendar on our cloud based server which is then veriled by the company. The activity is undertaken every financial year and the calendar is prepared and verified for each financial year
+      </p>
+
+      <img src="assets/img/image1.png" style="width: 100%">
+    </div>
+
+
+    <div class="row subject">
+      <div class="col-lg-6 d-flex flex-column">
+
+        <div class="content">
+          <h3>
+            <u> Roles and Responsibilities </u>
+          </h3>
+          <p>
+            For each compliance/event, owners, managers, escalation managers are clearly defined. Our tool identifies and segregates the company under three roles
+          </p>
+        </div>
+        
+      </div>
+      <div class="col-lg-6">
+        <div>
+          <ul>
+            <li>
+                  <b>Escalation Manager </b>-
+
+                  User is assigned the role of tracking overall compliance. Features include real time reports, real time tracking of each compliance activity/event and access to the repository created on real time basis
+
+            </li>
+            <li>
+                  <b>Compliance manager </b> -
+
+                  Role is usually vested to the various department heads. Features include access to reports and repository for their respective law areas
+
+            </li>
+            <li>
+                  <b>Compliance Owners</b> -
+
+                  Users are responsible for uploading the documents/proofs for each activity event assigned to them. Features are limited as their primary responsibility is completion of task and uploading the documents
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="subject">
+      <h3>Dashboards</h3>
+      <p>
+        Company can login to there dashboard using the credentials provided by our IT department.
+      </p>
+
+      <img src="assets/img/image2.png" style="width: 100%">
+    </div>
+
+
+    <div class="row subject">
+      <div class="col-sm-6"><h3><u>QC Review</u></h3></div>
+      <div class="col-sm-6">
+        <ul>
+          <li>
+            All the uploaded proofs are reviewed by our team of tax and legal experts and if we encounter any inconsistencies, a ticket is raised to the respective owner and manager
+          </li>
+          <li>
+            Regular QC aids the company is minimizing errors and ensures activities/events are complied as per respective laws
+          </li>
+          <li>
+            Ticket is escalated to escalation manager and compliance manager if Compliance owner fails to upload the proofs after reminder mails
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="subject">
+      <h3>Reports</h3>
+      <p>
+        Our tool facilitate
+      </p>
+
+      <img src="assets/img/image3.png" style="width: 100%">
+    </div>
+
+    <div class="subject">
+      <h3>Reports: List of Compiled Activities</h3>
+
+      <img src="assets/img/image4.png" style="width: 100%">
+    </div>
+    
+  </div>
+</section>
+
+<!-- <section id="be" class="benefits">
+  <div class="fix-center" style="text-align: center;">
+    <h1>IndCompli-Benefits</h1>
+    <div class="row">
+      <div class="col-sm-6">
+        Benefits accruing to the company from implementation of "Compliance Management Tool" are immense
+      </div>
+      <div class="col-sm-6">
+        "Compliance Management Tool" covers almost all compliance areas in laws which impact business - overview of some key legislations covered by the application
+      </div>
+      <img src="assets/img/image4.png">
+    </div>
+  </div>
+</section> -->
+
+<section class="howItworks"  id="benefit">
+  <div class="fix-center" style="text-align: center;">
+     <h1>IndCompli-Benefits</h1>
+    <div class="row">
+      <div class="col-sm-6">
+        Benefits accruing to the company from implementation of "Compliance Management Tool" are immense
+      </div>
+      <div class="col-sm-6">
+        "Compliance Management Tool" covers almost all compliance areas in laws which impact business - overview of some key legislations covered by the application
+      </div>
+    </div>
+   
+  </div>
+</section>
+
+<div class="footer-bottom">
+  <div class="fix-center">
+   <p>© 2021 Copyright ONEDELTA. All Rights Reserved. </p>
+   </div>
+</div>
+
+</body>
+</html>
