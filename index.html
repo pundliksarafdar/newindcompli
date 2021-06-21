@@ -1,28 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <title>Bootstrap Example</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <title>IndCompli</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-   <link href="styles.css" rel="stylesheet">
-   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
-   <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-   <!-- file:///Users/sauvikdolui/Downloads/testFolder/~bootstrap/dist/css/bootstrap.css -->
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
+
 <body>
   <script type="text/javascript">
     function myFunction() {
@@ -41,145 +50,127 @@
     }
   }
   </script>
-  <!-- <app-root></app-root> -->
+
+  <!-- ======= Top Bar ======= -->
+  <!-- <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="d-flex align-items-center">
+        <i class="icofont-clock-time"></i> Monday - Saturday, 8AM to 10PM
+      </div>
+      <div class="d-flex align-items-center">
+        <i class="icofont-phone"></i> Call us now +1 5589 55488 55
+      </div>
+    </div>
+  </div> -->
 
   <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
 
- <header id="header" class="fixed-top">
-  <div class="container d-flex align-items-center position-relative">
-
-    <!-- Uncomment below if you prefer to use an image logo -->
-    <div style="margin-right: 165px;">
-    <a href="index.html">
-
-      <img src="assets/img/IndCompli.png" alt="" class="img-fluid" style="height: 50px;width: 150px; " >
-      <!-- <span style="color: #1d84ad; font-size: 20px; position:absolute; padding-left:7px">IndCompli</span> -->
-    </a>
-  </div>
-  <div style="margin-left: 235px;">
-    <nav class="nav-menu d-none d-lg-block" >
-      <ul>
-        <li class="active"><a href="" >
-          <i class="fa fa-home"></i>
-        </a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#howitworks">How it works</a></li>
-        <li><a href="#benefit">Benefits</a></li>
-
-        <li>
-          <a class="icon icon-user2" >
-           <i class="fa fa-user"></i>
-            <!-- <span class="glyphicon glyphicon-user"></span> -->
-          </a>
-        </li>
-
-      </ul>
-    </nav>
-
-  </div>
-
-  </div>
-</header> <!--End Header-->
-<!-- =========================== End Header ============================== -->
-
-<section>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom: 20px;margin-top: 50px;">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-      </ol>
+      <a href="index.html" class="logo mr-auto"><img src="assets/img/logo1.png" alt=""></a>
 
 
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="item active">
-          <img class="d-block w-100 tales" src="assets/img/slide1.png" style="width:100%; height: 450px" alt="Los Angeles">
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#pricing">Numbers!</a></li>
+          <li><a href="#howitworks">How it works</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="login.html" target="_blank">log in</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <img class="d-block w-100 tales" src="assets/img/slide/slide1.png" style=" height: 100%!important" alt="Los Angeles">
+
+        
         </div>
 
-        <div class="item">
-          <img class="d-block w-100 tales" src="assets/img/slide2.png" style="width:100%; height: 450px"  alt="Chicago">
-        </div>
-
-        <div class="item">
-          <img class="d-block w-100 tales" src="assets/img/slide3.png" style="width:100%; height: 450px" alt="New York">
+        <!-- Slide 2 -->
+        <div class="carousel-item" >
+          <img class="d-block w-100 tales" src="assets/img/slide/slide2.png" style=" height: 100%!important" alt="Los Angeles">
           
         </div>
 
+        <!-- Slide 3 -->
+        <div class="carousel-item" >
+          <img class="d-block w-100 tales" src="assets/img/slide/slide3.png" style=" height: 100%!important" alt="Los Angeles">
+         
+        </div>
 
-        <div class="item">
-          <img class="d-block w-100 tales" src="assets/img/slide4.png" style="width:100%; height: 450px" alt="New York">
+        <!-- Slide 4 -->
+        <!-- <div class="carousel-item" >
+          <img class="d-block w-100 tales" src="assets/img/slide/slide4.png" style=" height: 100%!important" alt="Los Angeles">
           
         </div>
+         -->
 
       </div>
 
-      <!-- Left and right controls -->
-
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
+
     </div>
-</section>
+  </section><!-- End Hero -->
 
-<section>
-      <div class="fix-center">
-        <div class="left-comply">
-          <h2>Why
-            <span class="gcolor">
-              IndCompli</span>?
+  <main id="main">
 
-          </h2>
+    <!-- ======= Cta Section ======= -->
+    <!-- <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3>Why Compili?</h3>
+          <p style="text-align: left;"> When running a business, whether it is an SMB, or a large enterprise, one of the basic requirements is 100% compliance with the law. 
+            In complex jurisdictions, this can be a very daunting task! In India alone, there are over <span class="gcolor">76,000 </span> 
+            possible annual statutory compliance laws in 2019.</p>
+            <h3 style="text-align: left;">You have to:</h3>
+            <ul style="list-style: none;text-align: left;">
+              <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+            </ul>
         </div>
-        <div class="right-comply">
-          <p>When running a business, whether it is an SMB, or a large enterprise, one of the basic requirements is 100% compliance with the law. In complex jurisdictions, this can be a very daunting task! In India alone, there are over <span class="gcolor">76,000 </span> possible annual statutory compliance laws in 2019.</p>
 
-          <p>You have to:</p>
-          <ul>
-          <li>determine which among this myriad of laws apply to you</li>
-          <li>keep track of all the legal updates and notifications</li>
-          <li>make sure that you conform to the law in letter and spirit</li>
-          <li>and of course, always be ready for compliance audits.</li>
-          </ul>
-          <p>All of this just distracts you from your core focus – your business.</p>
-
-
-
-          <p>Being non-compliant also does the same thing. If the associated penalties for non-compliance are not enough of a deterrent, the consequences to your senior management, and&nbsp; the wasted hours filing a large amount of paperwork to remedy these non-compliances, should be!</p>
-
-        </div>
       </div>
-</section>
+    </section> -->
+    <!-- End Cta Section -->
 
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
 
-    <!-------------------------------------------------------------------------------------------------------------------------
-      About us
-     -------------------------------------------------------------------------------------------------------------------------->
-
-<section class="product-views" id="about">
-      <div class="fix-center">
-        <div class="prct-title">
-          <h2>About
-            <span class="gcolor">
-              IndCompli        </span>
-            <!-- <sup>
-              ®        </sup> -->
-          </h2>
+        <div class="section-title">
+          <h2 style="color: #00b8f1">About IndCompli</h2>
           <p>
-            your next-gen Compliance Management Software      </p>
+            Your next-gen Compliance Management Software      
+          </p>
         </div>
 
         <div class="row about-box">
-          <div class="col-sm-4">
-            <div class="box aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-sm-4 mt-5 mt-md-0">
+            <div class="box">
               <!-- <i-bs name="folder" class="icon"></i-bs> -->
               <i class="fa fa-folder-open-o icon"></i>
               <h4>Compliance Manual</h4>
@@ -197,7 +188,8 @@
 
               <h4>Compliance Tracking</h4>
               <p>
-                We create compliance calender and generate remainders for timely action of the compliance activities. Our tool targets to facilitates smooth work flow. For each compliance / events. Escalation levelsare also listed <span id="dots">... </span><span id="more"> along with periodic customized reports sent to various levels. </span><a onclick="myFunction()" id="myBtn" style="color: #337ab7">   Read more</a> 
+                We create compliance calender and generate remainders for timely action of the compliance activities. Our tool targets to facilitates smooth work flow. For each compliance / events.  <span id="dots">... </span><span id="more"> Escalation levelsare also listed along with periodic customized reports sent to various levels. </span><a onclick="myFunction()" id="myBtn" style="color: #00b8f1
+">   Read more</a> 
               </p>
               
             </div>
@@ -217,238 +209,366 @@
           </div>
 
         </div>
-        <br>
-        <br>
-        <div class="sets-apart">
-
-          <div class="dvcontent-parts">
-              <ul>
-                <li>
-                  <p>"IndCompli" is an enhanced web based compliance management tool on a secured cloud environment</p>
-                </li>
-                <li>
-                  <p>Packaged solution for Corporate, Tax, Labour, Environment Law etc. related compliance</p>
-                </li>
-                <li>
-                  <p>Compliance management across industries(covers both Manufactuing and Service sector)</p>
-                </li>
-                <li>
-                  <p>'One stop shop' for all compliances - Compliance manual & calender, forms, customized reports, Repositiory etc</p>
-                </li>
-                <li>
-                  <p>
-                    Manage, supervise and control statutory, regulatory compliance activities
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Ensuring Quality control through manual verification of documents by domain experts
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Assist the management to have a centralized control, Real-time, quick and easy access to complience status
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Facilitates in creating a repository of documents for all complied activities. Also creates a repository of all licenses aand agreements
-                  </p>
-                </li>
-
-              </ul>
-          </div>
-        </div>
-
-      </div>
-
-</section>
-
-<!--
-  How it works
- -->
-
-<section class="product-look" id="pricing">
-  <div class="fix-center">
-    <h3>Just look at the numbers!</h3>
-    <ul class="number-plist">
-    <li>
-    <h4>₹ 33,65,588</h4>
-    <p>Average penalty paid in 2019, per entity, for non-compliance.</p>
-    </li>
-    <li>
-    <h4>38,750</h4>
-    <p>Average filings / proofs to be submitted by entities per year.</p>
-    </li>
-    <li>
-    <h4>45,786</h4>
-    <p>Directors who got delisted in 2019, due to non-compliance.</p>
-    </li>
-    </ul>
-    <h3>Sounds overwhelming, doesn’t it? <br>Well, it doesn’t need to be.</h3>
-  </div>
-</section>
-
-<section id="howitworks" class="howItworks" >
-
-  <div class="container-fluid fix-center" >
-    <h1 style="text-align: center;">
-      IndCompli - How it works?
-    </h1>
-
-    <div class="row subject" style="padding-top: 20px;">
-      <div class="col-sm-4">
-        <p >
-          Our team of experts meets the management of the company to understand the business and determine the applicability of various laws
-        </p>
-        <i class="fa fa-angle-right" style="font-size: 90px;margin-left: 300px;"></i>
-              <!-- <img src="assets/img/arrow.jpg" style="height: 80px;width: 80px;margin-left: 245px;"> -->
-      </div>
-      <div class="col-sm-4">
-        <p style ="margin-top: 90px;">
-          Our team of experts meets the management of the company to understand the business and determine the applicability of various laws
-        </p>
-        <i class="fa fa-angle-right" style="font-size: 90px;margin-left: 300px;"></i>
-        <!-- <img src="assets/img/arrow.jpg" style="height: 80px;width: 80px;margin-left: 245px;"> -->
-
-      </div>
-      <div class="col-sm-4">
-        <p style ="margin-top: 175px;">
-          Our team of experts meets the management of the company to understand the business and determine the applicability of various laws
-        </p>
-
-      </div>
-    </div>
-
-    <div class="subject">
-      <h3>Preparation of Compliance Calendar </h3>
-      <p>
-
-        After identifying the law areas, our team prepares a compliance calendar on our cloud based server which is then veriled by the company. The activity is undertaken every financial year and the calendar is prepared and verified for each financial year
-      </p>
-
-      <img src="assets/img/image1.png" style="width: 100%">
-    </div>
-
-
-    <div class="row subject">
-      <div class="col-lg-6 d-flex flex-column">
-
-        <div class="content">
-          <h3>
-            <u> Roles and Responsibilities </u>
-          </h3>
-          <p>
-            For each compliance/event, owners, managers, escalation managers are clearly defined. Our tool identifies and segregates the company under three roles
-          </p>
-        </div>
-        
-      </div>
-      <div class="col-lg-6">
-        <div>
+        <div class="dvcontent-parts">
           <ul>
             <li>
-                  <b>Escalation Manager </b>-
+              <p>
+                <i class="icofont-check-circled" style="color: #00b8f1"></i>
+                "IndCompli" is an enhanced web based compliance management tool on a secured cloud environment
+              </p>
+            </li>
+            
+            <li>
+              <p>
+                <i class="icofont-check-circled" style="color: #00b8f1"></i>
+                Packaged solution for Corporate, Tax, Labour, Environment Law etc. related compliance
+              </p>
+            </li>
 
-                  User is assigned the role of tracking overall compliance. Features include real time reports, real time tracking of each compliance activity/event and access to the repository created on real time basis
+            <li>
+              <p>
+                <i class="icofont-check-circled" style="color: #00b8f1"></i>
+                Compliance management across industries(covers both Manufactuing and Service sector)
+              </p>
+            </li>
 
+            <li>
+              <p>
+                <i class="icofont-check-circled" style="color: #00b8f1"></i>
+                'One stop shop' for all compliances - Compliance manual & calender, forms, customized reports, Repositiory etc
+              </p>
+            </li>
+            
+            <li>
+              <p>
+                <i class="icofont-check-circled" style="color: #00b8f1"></i>             
+                Manage, supervise and control statutory, regulatory compliance activities      
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <i class="icofont-check-circled" style="color: #00b8f1"></i>
+              
+                Ensuring Quality control through manual verification of documents by domain experts
+              </p>
+              
             </li>
             <li>
-                  <b>Compliance manager </b> -
+              <p>
+                <i class="icofont-check-circled" style="color: #00b8f1"></i>
+                            
+                Assist the management to have a centralized control, Real-time, quick and easy access to complience status
 
-                  Role is usually vested to the various department heads. Features include access to reports and repository for their respective law areas
-
+              </p>
             </li>
             <li>
-                  <b>Compliance Owners</b> -
+              <p>
+                <i class="icofont-check-circled" style="color: #00b8f1"></i>
+            
+                Facilitates in creating a repository of documents for all complied activities. Also creates a repository of all licenses aand agreements
 
-                  Users are responsible for uploading the documents/proofs for each activity event assigned to them. Features are limited as their primary responsibility is completion of task and uploading the documents
-
+              </p>
             </li>
           </ul>
         </div>
+
       </div>
-    </div>
-    <div class="subject">
-      <h3>Dashboards</h3>
-      <p>
-        Company can login to there dashboard using the credentials provided by our IT department.
-      </p>
+    </section><!-- End About Us Section -->
 
-      <img src="assets/img/image2.png" style="width: 100%">
-    </div>
-
-
-    <div class="row subject">
-      <div class="col-sm-6"><h3><u>QC Review</u></h3></div>
-      <div class="col-sm-6">
-        <ul>
-          <li>
-            All the uploaded proofs are reviewed by our team of tax and legal experts and if we encounter any inconsistencies, a ticket is raised to the respective owner and manager
-          </li>
-          <li>
-            Regular QC aids the company is minimizing errors and ensures activities/events are complied as per respective laws
-          </li>
-          <li>
-            Ticket is escalated to escalation manager and compliance manager if Compliance owner fails to upload the proofs after reminder mails
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="subject">
-      <h3>Reports</h3>
-      <p>
-        Our tool facilitate
-      </p>
-
-      <img src="assets/img/image3.png" style="width: 100%">
-    </div>
-
-    <div class="subject">
-      <h3>Reports: List of Compiled Activities</h3>
-
-      <img src="assets/img/image4.png" style="width: 100%">
-    </div>
     
-  </div>
-</section>
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="services services">
+      <div class="container" data-aos="fade-up">
 
-<!-- <section id="be" class="benefits">
-  <div class="fix-center" style="text-align: center;">
-    <h1>IndCompli-Benefits</h1>
-    <div class="row">
-      <div class="col-sm-6">
-        Benefits accruing to the company from implementation of "Compliance Management Tool" are immense
+        <div class="section-title">
+          <!-- <h2>Pricing</h2> -->
+          <h3>Just look at the numbers!</h3>
+
+          <div class="counts">
+            <div class="container" data-aos="fade-up">
+              <div class="row no-gutters">
+                <div class="col-lg-4 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <span data-toggle="counter-up">33,65,588</span>
+                    <p>Average penalty paid in 2019, per entity, for non-compliance.</p>
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <span data-toggle="counter-up">38,750</span>
+                    <p>Average filings / proofs to be submitted by entities per year.</p>
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <span data-toggle="counter-up">45,786</span>
+                    <p>Directors who got delisted in 2019, due to non-compliance.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <h3>Sounds overwhelming, doesn’t it? <br>Well, it doesn’t need to be.</h3>
+        </div>
+
+
+
       </div>
-      <div class="col-sm-6">
-        "Compliance Management Tool" covers almost all compliance areas in laws which impact business - overview of some key legislations covered by the application
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="howitworks" class="services services">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2 style="color: #00b8f1"> How it works</h2>
+          <div class="row subject" style="padding-top: 20px; padding-bottom: 30px">
+            <div class="col-sm-4">
+              <p >
+                Our team of experts meets the management of the company to understand the business and determine the applicability of various laws
+              </p>
+              <i class="fa fa-angle-right" style="font-size: 90px;margin-left: 300px;"></i>
+                    <!-- <img src="assets/img/arrow.jpg" style="height: 80px;width: 80px;margin-left: 245px;"> -->
+            </div>
+            <div class="col-sm-4">
+              <p style ="margin-top: 90px;">
+                Our team of experts meets the management of the company to understand the business and determine the applicability of various laws
+              </p>
+              <i class="fa fa-angle-right" style="font-size: 90px;margin-left: 300px;"></i>
+              <!-- <img src="assets/img/arrow.jpg" style="height: 80px;width: 80px;margin-left: 245px;"> -->
+      
+            </div>
+            <div class="col-sm-4">
+              <p style ="margin-top: 175px;">
+                Our team of experts meets the management of the company to understand the business and determine the applicability of various laws
+              </p>
+      
+            </div>
+          </div>
+          <!-- <div class="featured-services" style="padding-bottom: 40px;">
+            <div class="container" data-aos="fade-up">
+              <div class="row">
+                <div class=" d-flex align-items-stretch ">
+                  <div class="box" >
+                    <i class="icofont-rounded-double- right arrow"  ></i>
+                    <p class="description">Our team of experts meets the management of the company to understand the business and determine the applicability of various laws
+  
+                    </p>
+                  </div>
+                </div>
+                <div class="  d-flex align-items-stretch ">
+                  <div class="box" >
+                    <i class="icofont-rounded-double-right arrow" ></i>
+                    <p class="description">Our team of experts meets the management of the company to understand the business and determine the applicability of various laws
+  
+                    </p>
+                  </div>
+                </div>
+      
+                <div class="  d-flex align-items-stretch ">
+                  <div class="box" >
+                   
+                    <p class="description">Our team of experts meets the management of the company to understand the business and determine the applicability of various laws</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <p> <b>
+            Roles and Responsibilities -
+          </b>
+          For each compliance/event, owners, managers, escalation managers are clearly defined. Our tool identifies and segregates the company under three roles</p>
+        </div>
+
+        
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon" style="padding-bottom: 35px;"><i class="icofont-business-man"></i></div>
+            <h4 class="title"><a href="" style="font-size: 24px; ">Escalation Manager </a></h4>
+            <p class="description"> User is assigned the role of tracking overall compliance. Features include real time reports, real time tracking of each compliance activity/event and access to the repository created on real time basis</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon" style="padding-bottom: 35px;"><i class="icofont-business-man-alt-2" ></i></div>
+            <h4 class="title"><a href="" style="font-size: 24px;">Compliance Manager</a></h4>
+            <p class="description">Role is usually vested to the various department heads. Features include access to reports and repository for their respective law areas</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon" style="padding-bottom: 35px;"><i class="icofont-man-in-glasses" ></i></div>
+            <h4 class="title" ><a href="" style="font-size: 24px; ">Compliance Owners</a></h4>
+            <p class="description">
+              Users are responsible for uploading the documents/proofs for each activity event assigned to them. Features are limited as their primary responsibility is completion of task and uploading the documents
+            </p>
+          </div>
+      
+        </div>
+
+        <div class="departments">
+          <div class="container" data-aos="fade-up">
+    
+            <div class="row" data-aos="fade-up" data-aos-delay="100">
+              <div class="col-lg-4 mb-5 mb-lg-0">
+                <ul class="nav nav-tabs flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link active show" data-toggle="tab" href="#tab-1">
+                      <h4>Preparation of Compliance Calendar</h4>
+                      <p>After identifying the law areas, our team prepares a compliance calendar on our cloud based server which is then veriled by the company. The activity is undertaken every financial year and the calendar is prepared and verified for each financial year</p>
+                    </a>
+                  </li>
+                  <li class="nav-item mt-2">
+                    <a class="nav-link" data-toggle="tab" href="#tab-2">
+                      <h4>Dashboards</h4>
+                      <p>Company can login to there dashboard using the credentials provided by our IT department.</p>
+                    </a>
+                  </li>
+                  <li class="nav-item mt-2">
+                    <a class="nav-link" data-toggle="tab" href="#tab-3">
+                      <h4>Reports</h4>
+                      <p>Our tool facilitate</p>
+                    </a>
+                  </li>
+                  <li class="nav-item mt-2">
+                    <a class="nav-link" data-toggle="tab" href="#tab-4">
+                      <h4>Reports</h4>
+                      <p>List of Compiled Activities</p>
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="col-lg-8">
+                <div class="tab-content">
+                  <div class="tab-pane active show" id="tab-1">
+                    <h3>Calander</h3>
+                    <a href="assets/img/image1.png" class="venobox" >
+                      <img src="assets/img/image1.png" alt="" class="img-fluid">
+                    </a>
+                  </div>
+                  <div class="tab-pane" id="tab-2">
+                    <h3>Dashboard</h3>
+                    <a href="assets/img/image2.png" class="venobox" >
+                      <img src="assets/img/image2.png" alt="" class="img-fluid">
+                    </a>
+                  </div><div class="tab-pane" id="tab-3">
+                    <h3>Reports</h3>
+                    <a href="assets/img/image3.png" class="venobox" >
+                      <img src="assets/img/image3.png" alt="" class="img-fluid">
+                    </a>
+                  </div><div class="tab-pane" id="tab-4">
+                    <h3>Reports</h3>
+                    <a href="assets/img/image4.png" class="venobox" >
+                      <img src="assets/img/image4.png" alt="" class="img-fluid">
+                    </a>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+    
+          </div>
+        </div>
       </div>
-      <img src="assets/img/image4.png">
+    </section><!-- End Services Section -->
+
+    <!-- ======= Appointment Section ======= -->
+    <!-- <section id="appointment" class="appointment section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2> Log in</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <form action="forms/appointment.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+          <div class="form-row">
+            <div class="col-md-4 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-4 form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-4 form-group">
+              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-4 form-group">
+              <input type="datetime" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-4 form-group">
+              <select name="department" id="department" class="form-control">
+                <option value="">Select Department</option>
+                <option value="Department 1">Department 1</option>
+                <option value="Department 2">Department 2</option>
+                <option value="Department 3">Department 3</option>
+              </select>
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-4 form-group">
+              <select name="doctor" id="doctor" class="form-control">
+                <option value="">Select Doctor</option>
+                <option value="Doctor 1">Doctor 1</option>
+                <option value="Doctor 2">Doctor 2</option>
+                <option value="Doctor 3">Doctor 3</option>
+              </select>
+              <div class="validate"></div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
+            <div class="validate"></div>
+          </div>
+          <div class="mb-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">login</button></div>
+        </form>
+
+      </div>
+    </section> -->
+    <!-- End Appointment Section -->
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>IndCompili</span></strong>. All Rights Reserved
+      </div>
     </div>
-  </div>
-</section> -->
+  </footer><!-- End Footer -->
 
-<section class="howItworks"  id="benefit">
-  <div class="fix-center" style="text-align: center;">
-     <h1>IndCompli-Benefits</h1>
-    <div class="row">
-      <div class="col-sm-6">
-        Benefits accruing to the company from implementation of "Compliance Management Tool" are immense
-      </div>
-      <div class="col-sm-6">
-        "Compliance Management Tool" covers almost all compliance areas in laws which impact business - overview of some key legislations covered by the application
-      </div>
-    </div>
-   
-  </div>
-</section>
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
-<div class="footer-bottom">
-  <div class="fix-center">
-   <p>© 2021 Copyright ONEDELTA. All Rights Reserved. </p>
-   </div>
-</div>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+ 
 
 </body>
+
 </html>
